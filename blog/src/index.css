@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,88 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
+
+/* .card{
+  justify-items: right;
+  align-items: center; */
+
+section{
+  background-color: skyblue;
+  padding: 0px 30px;
+  justify-content: flex-start;
+  position: relative;
+
+}
+
+.container{
+  width: 0%;
+  margin: auto;
+  padding: 30px;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+nav{
+  height: 80px;
+}
+nav a{
+  float: left;
+  padding: 20px;
+  /* flex-direction: row;
+  color: white;
+  justify-items: flex-end;
+  align-items: flex-start;  */
+}
+
+nav ul{
+   float: right;
+  list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 0px 5px ;
+}
+
+button{
+  float: right;
+  align-self: flex-end;
+  margin: 50px;
+  
+}
+
+nav ul a h6{
+font-size: 20px;
+text-transform: uppercase;
+ padding: 10px 8px;
+margin-top: 1px; 
+}
+
+.header-container{
+height: 642px;
+}
+/* .Logo{
+  font-style: normal;
+  font-weight: 300;
+} */
+/* .Menu-header{
+  display: flexbox;
+  padding: -20px;
+  margin: 10px;
+}
+
+.Menu-header li{
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 10px;
+  text-decoration: none;
+} */

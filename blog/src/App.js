@@ -2,14 +2,19 @@ import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Card from './dummy/Card';
-
+ 
+import Maxup from './dummy/Maxup';
+import Gold from './dummy/Gold';
+import Menu from './Land/Header/Menu';  
 
  //call your card component here to display it in your home page.
 
   function App() {
    return (
-      <>
-      <Card/>
+       <>
+        <Menu/>
+      <Card/> <Gold/> 
+      <Maxup/>  
       </>
 
       )
