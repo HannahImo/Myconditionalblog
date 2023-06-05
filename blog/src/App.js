@@ -1,20 +1,35 @@
 import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Card from './dummy/Card';
+// import Card from './dummy/Card';
  
-import Maxup from './dummy/Maxup';
-import Gold from './dummy/Gold';
-import Menu from './Land/Header/Menu';  
+// import Maxup from './dummy/Maxup';
+// import Gold from './dummy/Gold';
+import Menu from './Land/Header/Menu'; 
+// import Row from './Land/Header/Row2'; 
+// import Card from './dummy/Card';
+// import Gold from './dummy/Gold';
+// import Maxup from './dummy/Maxup';
+import Row2 from './Land/Header/Row2';
+import Compinfo from './Land/Compinfo';
+import Partners from './Land/Partners';
 
  //call your card component here to display it in your home page.
 
   function App() {
-   return (
+    // let social_Data = "Maxup"
+
+    return (
        <>
         <Menu/>
-      <Card/> <Gold/> 
-      <Maxup/>  
+        <Row2/>
+        <Compinfo/>
+        <Partners/>
+
+      {/* <Card social_Data ={social_Data } />    
+      
+       <Gold  social_Data ={social_Data} /> 
+      <Maxup  social_Data ={social_Data } />   */}
       </>
 
       )

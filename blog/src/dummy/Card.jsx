@@ -1,4 +1,6 @@
- function Card () {
+ 
+//  function Card = ({social_Data})
+ function Card ({social_Data}) {
   return (
     <>
       <div className="container1">
@@ -14,7 +16,16 @@
          <li> <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/checked--v1.png" alt="checked--v1"/>Free web security</li>
          <li> <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/checked--v1.png" alt="checked--v1"/>Free database for 1 month </li>
         </ul>
-        <button> <a href="/" class="card-link">Get started</a> </button>  
+        {social_Data === "Card" ? (
+        <button>
+          <a href="/" class="card-link">
+            Get started
+          </a>
+        </button>
+      ) : (
+        ""
+      )} 
+        {/* {social_Data === "twiter" ?  button :  "" } */}
       </div>
       </div>
       </div>

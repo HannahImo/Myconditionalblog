@@ -1,4 +1,4 @@
-function Gold(){
+function Gold({social_Data}){
     return (    
         <>
        <div className="container2"> 
@@ -18,7 +18,15 @@ function Gold(){
          <li> <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/checked--v1.png" alt="checked--v1"/>Free database for 1 month </li>
        </ul>
          
-           <button> <a href="/" class="card-link">Get started</a> </button>  
+       {social_Data === "Gold" ? (
+        <button>
+          <a href="/" class="card-link">
+            Get started
+          </a>
+        </button>
+      ) : (
+        ""
+      )} 
              </div>
              </div>
              </div>
