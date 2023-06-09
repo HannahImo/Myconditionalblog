@@ -16,6 +16,7 @@ code {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  color: #333;
 }
 
 /* .card{
@@ -129,6 +130,40 @@ padding: 0;
   border-bottom-left-radius: 230px;
   display: flex;
   margin-top: 50px;
+  text-size-adjust: 100%;
   box-sizing: border-box;
 }
 
+.Compinfo{
+display: grid;
+grid-template-columns: minmax(auto,1232px);
+justify-content: center;
+position: relative;
+font-size-adjust: 100%;
+box-sizing: border-box;
+}
+
+.company-container-animate{
+ opacity: 0;
+ animation: fade-in-up 1s cubic-bezier;
+ animation-fill-mode: forwards;
+ display: block; 
+}
+
+.company-info-header{
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin: 0 auto 54px;
+  max-width:544px;
+  text-align: center;
+  color: #333;
+}
+
+.company-info-header h2{
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}

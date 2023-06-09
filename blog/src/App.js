@@ -16,6 +16,7 @@ import Partners from './Land/Partners';
 import Advice from './Land/Advice';
 import Recent from './Land/Recent';
 import Coaches from './Land/Coaches';
+import Footer from './Land/Footer';
 
  //call your card component here to display it in your home page.
 
@@ -31,6 +32,9 @@ import Coaches from './Land/Coaches';
         <Advice/>
         <Recent/>
         <Coaches/>
+        <Footer/>
+
+        
       {/* <Card social_Data ={social_Data } />    
       
        <Gold  social_Data ={social_Data} /> 
