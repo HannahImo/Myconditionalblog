@@ -13,6 +13,9 @@ import Menu from './Land/Header/Menu';
 import Row2 from './Land/Header/Row2';
 import Compinfo from './Land/Compinfo';
 import Partners from './Land/Partners';
+import Advice from './Land/Advice';
+import Recent from './Land/Recent';
+import Coaches from './Land/Coaches';
 
  //call your card component here to display it in your home page.
 
@@ -25,7 +28,9 @@ import Partners from './Land/Partners';
         <Row2/>
         <Compinfo/>
         <Partners/>
-
+        <Advice/>
+        <Recent/>
+        <Coaches/>
       {/* <Card social_Data ={social_Data } />    
       
        <Gold  social_Data ={social_Data} /> 
