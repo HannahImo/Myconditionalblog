@@ -1,0 +1,25 @@
+.coach-card {
+    width: 30%;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    /* color: #333333; */
+    margin-bottom: 5px;
+  }
+  
+  .card-details {
+    font-size: 14px;
+    /* color: #666666; */
+  }
+
+  .coach-main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+
+  }
+
+  .coach-ul{
+    border: 2px solid red;
+  }

@@ -23,12 +23,17 @@ code {
   justify-items: right;
   align-items: center; */
 
-section{
+/* section{
   background-color: #9adbf5;
   padding: 0px 30px;
   justify-content: flex-start;
   position: relative;
 
+} */
+
+*{
+  margin: 0;
+  padding: 0;
 }
 
 .container{
