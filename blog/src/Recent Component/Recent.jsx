@@ -4,7 +4,13 @@ import Rcomponent from './Rcomponent';
 
 function Recent() {
 
-    const recent_articles = [
+        // <div>
+        // <h2 className='heading'> Check out recent articles.</h2>
+        // <p className='sub-heading'> Get all the information and support you need to find work that's worth it. </p>
+        // </div>
+            
+
+    const recent_articles = [        
                 {
                     id: 1,
                     img: '/',
@@ -49,8 +55,11 @@ function Recent() {
 
                  
     ];
+    
 
   return (
+
+        
 
         <ul className='article-authors'>
         <Rcomponent our_articles={recent_articles}/>
