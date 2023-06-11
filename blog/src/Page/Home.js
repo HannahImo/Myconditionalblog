@@ -1,12 +1,12 @@
 import React from "react";
-import Menu from "../Land/Header/Menu";
-import Row2 from "../Land/Header/Row2";
-import Compinfo from "../Land/Compinfo";
-import Partners from "../Land/Partners";
-import Advice from "../Land/Advice";
-import Recent from "../Land/Recent";
+import Menu from "../Header/Menu";
+import Row2 from "../Header/Row2";
+import Compinfo from "../Company comp/Compinfo";
+import Partners from "../Partner Component/Partners";
+import Advice from "../Advice component/Advice";
+import Recent from "../Recent Component/Recent";
 import Coaches from "../Land/Coaches";
-import Footer from "../Land/Footer";
+import Footer from "../Footer component/Footer";
 
 function Home() {
   return (

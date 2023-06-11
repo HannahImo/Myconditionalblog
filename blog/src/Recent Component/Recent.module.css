@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.coach-card{
+    background-color: teal;
+    padding: 10px;
+    
+    
+}
+
+.card-title{
+    font-size: 10px;
+
+}
+
+.card-author{
+    font-size: 15px;
+}
+
+.recente-article{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}

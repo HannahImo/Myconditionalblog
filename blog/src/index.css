@@ -50,14 +50,14 @@ nav{
 }
 nav a{
   float: left;
-  padding: 20px;
+  padding: 20px; }
   /* flex-direction: row;
   color: white;
   justify-items: flex-end;
   align-items: flex-start;  */
-}
 
-nav ul{
+
+/* nav ul{
    float: right;
   list-style: none;
 }
@@ -83,7 +83,7 @@ margin-top: 1px;
 
 .header-container{
 height: 642px;
-}
+} */
 
  /* styling search bar */
     /* .search input[type=text]{
@@ -109,7 +109,7 @@ height: 642px;
         cursor: pointer;
     } */
  
-.header-left-container{
+/* .header-left-container{
   margin-bottom: 40px;
   position: relative;
   background-color: #aee2f7;
@@ -171,4 +171,4 @@ box-sizing: border-box;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-}
+} */
