@@ -5,7 +5,7 @@ import Compinfo from "../Company comp/Compinfo";
 import Partners from "../Partner Component/Partners";
 import Advice from "../Advice component/Advice";
 import Recent from "../Recent Component/Recent";
-import Coaches from "../Land/Coaches";
+import Coaches from "../Component/Coaches";
 import Footer from "../Footer component/Footer";
 
 function Home() {

@@ -8,8 +8,9 @@ function Coaches_Component({ ourdata }) {
       {ourdata?.map((data) => {
         return (
           <section className={styles["coach-card"]} key={data?.id}>
-            <img src={data?.img} height={80} width={80} />
-            <h3 className={styles["card-title"]}>{data.title} fdkfdfk</h3>
+            <img src={data?.img}  alt={'/'} height={80} width={80} />
+            <h3 className={styles["card-title"]}>{data.title} </h3>
+            <p className={styles['card-name']}>{data.name}</p>
             <p className={styles["card-details"]}>{data.body}</p>
           </section>
         );

@@ -10,7 +10,7 @@ function Rcomponent({our_articles}) {
 
             return (
                 <section className={styles['coach-card']} key={recent_articles?.id}>
-                    <img src={recent_articles?.img} height={80} width={80}/>
+                    <img src={recent_articles?.img} alt={'/'} height={80} width={80}/>
                     <h3 className={styles['card-author']}> {recent_articles.author} </h3>
                     <p className={styles['card-title']}>{recent_articles.title}</p>
                 </section>

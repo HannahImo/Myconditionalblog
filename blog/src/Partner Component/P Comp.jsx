@@ -1,15 +1,14 @@
 import React from "react";
 import styles from "./Partner.module.css";
 
-function PComp({ partner_logo }) {
-  console.log(partner_logo);
-
+function PComp({ comp_partners }) {
+  
   return (
     <div className={styles["partnered-with"]}>
-      {partner_logo?.map((item) => {
+      {comp_partners?.map((item) => {
         return (
           <section className={styles["logo-covering"]} key={item?.id}>
-            <img src={item?.img} />
+            <img src={item?.img} alt={'/'} />
           </section>
         );
       })}

@@ -24,7 +24,7 @@ function Partners() {
     const partner_logo = [
         {
             img: 'https://pilbox.themuse.com/?&url=https://assets.themuse.com/media/lead/homepage_tiktok_logo.png&h=51&filter=antialias&opt=1&pos=center&prog=1&q=keep',
-            title: 'Tiktok',
+            Title: 'Tiktok',
             height: '51px',
             weight: '158px',
         },
