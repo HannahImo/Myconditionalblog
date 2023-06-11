@@ -29,6 +29,11 @@ code {
   justify-content: flex-start;
   position: relative;
 
+} */
+
+*{
+  margin: 0;
+  padding: 0;
 }
 
 .container{
@@ -45,7 +50,7 @@ nav{
 }
 nav a{
   float: left;
-  padding: 20px; */
+  padding: 20px; }
   /* flex-direction: row;
   color: white;
   justify-items: flex-end;
