@@ -16,9 +16,104 @@ code {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  color: #333;
 }
 
+.container{
+  background-color: #9adbf5;
+  padding: 0%;
+  position: sticky;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.container ul li{
+  float: left;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+
+}
+
+.container-header-button{
+  float: left;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 50px;
+  list-style: none;
+
+}
+
+.header-left-container{
+  align-items: left;
+  margin-top: 0px;
+  padding: 0, 24px, 0 32px;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #aee2f7;
+  position: relative;
+  margin-bottom: 40px;
+  min-height: 245px;
+}
+
+.div{
+  display: block;
+}
+
+.header-left-container .header-h1{
+font-size: 65px;
+color: #1d2d5a;
+line-height: 100%;
+margin: 0 0 16px;
+font-size: 64px;
+
+}
+
+.header-left-container .header-h1 span{
+  font-style: italic;
+  color:#3e5aab;
+  white-space: nowrap;
+}
+
+.header-left-container .header-subtext{
+max-width:none;
+font-size: 18px;
+color: #494e5d;
+margin: 0;
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+
+.header-left-container .search{
+padding:0px;
+margin-top:30px;
+position:relative;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+background-color: transparent;
+width: 10%;
+text-size-adjust: 100%;
+}
+
+.header-right{
+  width: 40px;
+  min-width: 133px;
+  display: block;
+}
+
+.header-left-container .header-right .header-right-img{
+  border-bottom-left-radius: 230px;
+  aspect-ratio: 311/376;
+  float:left;
+  justify-content: right;
+  
+}
 /* .card{
   justify-items: right;
   align-items: center; */
@@ -29,28 +124,7 @@ code {
   justify-content: flex-start;
   position: relative;
 
-} */
-
-*{
-  margin: 0;
-  padding: 0;
-}
-
-.container{
-  width: 0%;
-  margin: auto;
-  padding: 30px;
-  justify-content: space-between;
-  position: relative;
-  width: 100%;
-}
-
-nav{
-  height: 80px;
-}
-nav a{
-  float: left;
-  padding: 20px; }
+} 
   /* flex-direction: row;
   color: white;
   justify-items: flex-end;

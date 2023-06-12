@@ -12,7 +12,7 @@
 
 .cardsmple{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: rap;
   flex-direction: row;
   flex: content;
   display: inline-block;

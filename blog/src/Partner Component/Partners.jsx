@@ -46,7 +46,7 @@ function Partners() {
 
         {
             img: '/',
-            Title: 'Rpbinhood',
+            Title: 'Robinhood',
         },
 
         {
